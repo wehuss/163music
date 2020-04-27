@@ -1,0 +1,11 @@
+$font-m: 22px;
+$m24: 0 24px;
+$mt: 26px 0;
+$font-a: 34px;
+$bgc: #c20c0c;
+$fc-c: #999999;
+@mixin no-wrap {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

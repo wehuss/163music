@@ -1,0 +1,37 @@
+/* 重设Vant的部分样式 */
+.van-popup {
+  line-height: .8rem !important; 
+}
+.van-toast{
+  line-height: 1rem !important;
+}
+.van-swipe__indicators{
+  bottom: 14px !important;
+}
+.van-nav-bar{
+  height: 1.3rem !important;
+  line-height: 1.3rem !important;
+}
+.van-nav-bar__title{
+  font-size: 20px !important;
+}
+.van-tabs--line .van-tabs__wrap{
+  height: 1.2rem !important;
+}
+.van-tab{
+  line-height: 1.2rem !important;
+  font-size: .4rem !important;
+}
+.van-loading {
+  position: fixed !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%,-50%) !important;
+  z-index: 1 !important;
+}
+.van-sticky--fixed{
+  top: 7vh !important; 
+}
+.van-toast{
+  width: 30vw !important;
+}
